@@ -1,17 +1,23 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.88.1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Hugo 0.88.1" />
     <title>Rebellion Games</title>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/headers/">
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.1/examples/headers/"
+    />
 
     <!-- Bootstrap core CSS -->
-<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet" />
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -28,34 +34,85 @@
       }
     </style>
     <!-- Custom styles for this template -->
-    <link href="headers.css" rel="stylesheet">
+    <link href="headers.css" rel="stylesheet" />
+    <link href="support.css" rel="stylesheet" />
   </head>
   <body>
+    <header class="p-3 background-hd text-white">
+      <div class="container">
+        <div
+          class="
+            d-flex
+            flex-wrap
+            align-items-center
+            justify-content-center justify-content-lg-start
+          "
+        >
+          <ul
+            class="
+              nav
+              col-12 col-lg-auto
+              me-lg-auto
+              mb-2
+              justify-content-center
+              mb-md-0
+            "
+          >
+            <li><img src="img/White logo.png" /></li>
+            <li><a href="#" class="nav-link px-2 text-white">Início</a></li>
+            <li><a href="#" class="nav-link px-2 text-white">Planos</a></li>
+            <li><a href="#" class="nav-link px-2 text-white">Sobre</a></li>
+            <li>
+              <a href="#" class="nav-link px-2 text-secondary">Suporte</a>
+            </li>
+          </ul>
 
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+            <input
+              type="search"
+              class="form-control form-control-dark"
+              placeholder="Search..."
+              aria-label="Search"
+            />
+          </form>
 
-<main>
-  <header class="p-3 background-hd text-white">
-    <div class="container">
-       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><img src="img/White logo.png" width="100"> </li>
-          <li><a href="#" class="nav-link px-2 text-secondary">Início</a></li>
-          <li><a href="#" class="nav-link px-2 text-white">Planos</a></li>
-          <li><a href="#" class="nav-link px-2 text-white">Sobre</a></li>
-          <li><a href="#" class="nav-link px-2 text-white">Suporte</a></li>
-        </ul>
-
-        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
-          <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search">
-        </form>
-
-        <div class="text-end">
-          <button type="button" class="btn btn-outline-light me-2">Login</button>
-          <button type="button" class="btn nav-button">Sign-up</button>
+          <div class="text-end">
+            <button type="button" class="btn btn-outline-light me-2">
+              Login
+            </button>
+            <button type="button" class="btn nav-button">Sign-up</button>
+          </div>
         </div>
       </div>
-    </div>
-  </header>
+    </header>
 
+    <main>
+      <section class="left">
+        <header>
+          <h1>Como podemos lhe ajudar?</h1>
+          <p>Ache os questionamentos mais populares</p>
+          <input type="text" placeholder="Search" class="form-control" />
+        </header>
+      </section>
+      <section class="right">
+        <h1>Ainda precisa de ajuda?</h1>
+        <p>Nos contate iremos lhe atender pessoalmente</p>
+        <form>
+          <div class="form-row">
+            <input type="text" placeholder="Name" />
+            <input type="text" placeholder="E-mail" />
+          </div>
+          <select name="" id="">
+            <option disabled selected>Escolha o tipo</option>
+            <option value="type01">Cadastro</option>
+            <option value="type02">Planos</option>
+            <option value="type03">Infraestrutura</option>
+          </select>
+          <input type="text" placeholder="Titulo" />
+          <textarea name="" id="" cols="20" rows="10"></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
   </body>
 </html>
